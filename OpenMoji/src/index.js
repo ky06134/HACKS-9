@@ -220,18 +220,5 @@ addOnUISdk.ready.then(() => {
             console.log("hi");
         })  
     });
-    document.getElementById("button31").addEventListener("click",async function() {
-        let path = "./images/1FAE3_color.png";
-        fetch(path).then(response => response.blob()).then(blob => {
-            addOnUISdk.app.document.addImage(blob);
-            console.log("hi");
-        })  
-    });
-    document.getElementById("button32").addEventListener("click",async function() {
-        let path = "./images/263A_color.png";
-        fetch(path).then(response => response.blob()).then(blob => {
-            addOnUISdk.app.document.addImage(blob);
-            console.log("hi");
-        })  
-    });
+
 });
