@@ -1,0 +1,21 @@
+{
+    "testId": "8915e12c-5fdc-40b3-a558-97e072ded72e",
+    "name": "OpenMoji",
+    "version": "1.0.0",
+    "manifestVersion": 2,
+    "requirements": {
+        "apps": [
+            {
+                "name": "Express",
+                "apiVersion": 1
+            }
+        ]
+    },
+    "entryPoints": [
+        {
+            "type": "panel",
+            "id": "panel1",
+            "main": "index.html"
+        }
+    ]
+}
