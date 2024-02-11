@@ -172,7 +172,7 @@ addOnUISdk.ready.then(() => {
         })  
     });
     document.getElementById("button24").addEventListener("click",async function() {
-        let path = "./images/1F911.png";
+        let path = "./images/1F911_color.png";
         fetch(path).then(response => response.blob()).then(blob => {
             addOnUISdk.app.document.addImage(blob);
             console.log("hi");
@@ -186,21 +186,21 @@ addOnUISdk.ready.then(() => {
         })  
     });
     document.getElementById("button26").addEventListener("click",async function() {
-        let path = "./images/1F623_color.png";
+        let path = "./images/1F923_color.png";
         fetch(path).then(response => response.blob()).then(blob => {
             addOnUISdk.app.document.addImage(blob);
             console.log("hi");
         })  
     });
     document.getElementById("button27").addEventListener("click",async function() {
-        let path = "./images/1F629_color.png";
+        let path = "./images/1F929_color.png";
         fetch(path).then(response => response.blob()).then(blob => {
             addOnUISdk.app.document.addImage(blob);
             console.log("hi");
         })  
     });
     document.getElementById("button28").addEventListener("click",async function() {
-        let path = "./images/1F670_color.png";
+        let path = "./images/1F970_color.png";
         fetch(path).then(response => response.blob()).then(blob => {
             addOnUISdk.app.document.addImage(blob);
             console.log("hi");
